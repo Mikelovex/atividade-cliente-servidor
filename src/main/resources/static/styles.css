@@ -1,4 +1,4 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -12,8 +12,13 @@
 	margin: 16px auto;
 }
 
-.header-list{
+.header-list {
 	display: flex;
 	gap: 16px;
 	list-style: none;
+}
+
+.names-container {
+	display: flex;
+	flex-direction: row;
 }

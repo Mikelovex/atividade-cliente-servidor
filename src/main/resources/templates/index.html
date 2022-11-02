@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
-<meta charset="UTF-8">
-<title>Pagina inicial</title>
-<link >
+	<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+	<meta charset="UTF-8">
+	<title>Pagina inicial</title>
+	<link>
 </head>
+
 <body>
 
 	<header class="header-container">
 		<h2>Biblioteca</h2>
 		<ul class="header-list">
-			<a th:href="@{/livros}"><li>Livros por categoria</li></a>
-			<a th:href="@{/livro/cadastrar}"><li>Cadastrar livro</li></a>
-			<a th:href="@{/livros/buscar}"><li>Procurar livro</li></a>
+			<a th:href="@{/livros}">
+				<li>Livros por categoria</li>
+			</a>
+			<a th:href="@{/livro/cadastrar}">
+				<li>Cadastrar livro</li>
+			</a>
+			<a th:href="@{/livros/buscar}">
+				<li>Procurar livro</li>
+			</a>
 		</ul>
 	</header>
+
+	<div>
+		<span>Nome: Michael Rafael Gonçalves RGM: 25777904</span><br />
+		<span>Nome: Bárbara Luz Vichi RGM: 26416964</span><br />
+		<span>Nome: Gaby Barbara Morais de Lima RGM: 27848019</span><br />
+		<span>Nome: Isabella Ferreira da Silva RGM: 26159562</span>
+	</div>
+
 </body>
+
 </html>
