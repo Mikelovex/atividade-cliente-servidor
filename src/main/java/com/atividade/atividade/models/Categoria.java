@@ -5,12 +5,12 @@ import javax.persistence.Id;
 
 @Entity(name = "tbcategorias")
 public class Categoria {
-	
+
 	@Id
 	private String categoria;
-	
+
 	public Categoria() {
-		
+
 	}
 
 	public Categoria(String categoria) {
@@ -25,6 +25,5 @@ public class Categoria {
 	public void setCategoria(String categoria) {
 		this.categoria = categoria;
 	}
-	
-	
+
 }
